@@ -16,8 +16,8 @@ public class Age_Classification {
         Scanner scr= new Scanner(System.in);
         System.out.println(" Enter the Number "+ scr);
         int age = scr.nextInt();
-        String result = (age < 18) ? "Minor" : ( age < 65) ? "Adult" : "Senior Citizen";
-        System.out.println(result);
+        String result1 = (age < 18) ? "Minor" : ( age < 65) ? "Adult" : "Senior Citizen";
+        System.out.println(result1);
 
     }
 }
